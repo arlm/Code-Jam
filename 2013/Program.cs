@@ -9,12 +9,12 @@ namespace Application
 		{
 			string inputPath = "../../input/";
 			string outputPath = "../../output/";
-			string fileName = "A-large.in";
+			string fileName = "C-large-2.in";
 
 			StreamReader input = File.OpenText(inputPath + fileName);
 			StreamWriter output = new StreamWriter(outputPath + fileName);
 
-			var problem = new QR_A(input, output);
+			var problem = new QR_C(input, output);
 			problem.Run();
 
 			input.Close();
