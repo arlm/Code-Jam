@@ -1,0 +1,16 @@
+Case #1: YES
+Case #2: YES
+Case #3: NO
+Case #4: YES
+Case #5: NO
+Case #6: YES
+Case #7: YES
+Case #8: NO
+Case #9: NO
+Case #10: NO
+Case #11: NO
+Case #12: YES
+Case #13: YES
+Case #14: NO
+Case #15: NO
+Case #16: YES
