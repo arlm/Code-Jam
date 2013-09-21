@@ -40,6 +40,7 @@
     <Compile Include="QR_B.cs" />
     <Compile Include="QR_C.cs" />
     <Compile Include="QR_D.cs" />
+    <Compile Include="R1A_A.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -55,5 +56,7 @@
     <None Include="output\qr-b-sample.txt" />
     <None Include="input\B-small-attempt0.in" />
     <None Include="output\B-small-attempt0.in" />
+    <None Include="input\r1a-a-sample.txt" />
+    <None Include="output\r1a-a-sample.txt" />
   </ItemGroup>
 </Project>
