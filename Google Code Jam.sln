@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2013", "2013\2013.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codeeval.com", "codeeval.com\codeeval.com.csproj", "{EB94B5E9-CA54-493A-8206-027D18022F0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gist-6647474", "gists\CSharp-Prime-Algorithms-IEnumerator\gist-6647474.csproj", "{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,8 +21,12 @@ Global
 		{EB94B5E9-CA54-493A-8206-027D18022F0B}.Debug|x86.Build.0 = Debug|x86
 		{EB94B5E9-CA54-493A-8206-027D18022F0B}.Release|x86.ActiveCfg = Release|x86
 		{EB94B5E9-CA54-493A-8206-027D18022F0B}.Release|x86.Build.0 = Release|x86
+		{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}.Debug|x86.ActiveCfg = Debug|x86
+		{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}.Debug|x86.Build.0 = Debug|x86
+		{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}.Release|x86.ActiveCfg = Release|x86
+		{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = codeeval.com\codeeval.com.csproj
+		StartupItem = gists\CSharp-Prime-Algorithms-IEnumerator\gist-6647474.csproj
 	EndGlobalSection
 EndGlobal
