@@ -36,10 +36,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="easy\FizzBuzz.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="input\" />
     <Folder Include="output\" />
+    <Folder Include="easy\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input\easy-1-fizz-buzz.txt" />
+    <None Include="output\easy-1-fizz-buzz.txt" />
   </ItemGroup>
 </Project>

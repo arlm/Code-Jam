@@ -21,6 +21,6 @@ Global
 		{EB94B5E9-CA54-493A-8206-027D18022F0B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = 2013\2013.csproj
+		StartupItem = codeeval.com\codeeval.com.csproj
 	EndGlobalSection
 EndGlobal

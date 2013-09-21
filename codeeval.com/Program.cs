@@ -9,17 +9,16 @@ namespace codeeval.com
 		{
 			string inputPath = "../../input/";
 			string outputPath = "../../output/";
-			string fileName = "r1a-a-sample.txt";
+			string fileName = "easy-1-fizz-buzz.txt";
 
 			StreamReader input = File.OpenText(inputPath + fileName);
 			StreamWriter output = new StreamWriter(outputPath + fileName);
 
-			var problem = new R1A_A(input, output);
+			var problem = new FizzBuzz(input, output);
 			problem.Run();
 
 			input.Close();
 			output.Close();
-
 		}
 
 	}
