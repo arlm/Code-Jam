@@ -9,7 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>codeeval.com</RootNamespace>
     <AssemblyName>codeeval.com</AssemblyName>
-    <StartupObject>PrimePalindromeMain</StartupObject>
+    <StartupObject>ReverseWordsMain</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +39,7 @@
     <Compile Include="easy\FizzBuzz.cs" />
     <Compile Include="easy\PrimePalindrome.cs" />
     <Compile Include="easy\SumOfPrimes.cs" />
+    <Compile Include="easy\ReverseWords.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -49,6 +50,8 @@
   <ItemGroup>
     <None Include="input\easy-1-fizz-buzz.txt" />
     <None Include="output\easy-1-fizz-buzz.txt" />
+    <None Include="input\easy-4-reverse-words.txt" />
+    <None Include="output\easy-4-reverse-words.txt" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

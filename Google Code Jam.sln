@@ -27,6 +27,6 @@ Global
 		{F0A32394-4E4A-46B6-8AD0-B50B30B49D41}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = gists\CSharp-Prime-Algorithms-IEnumerator\gist-6647474.csproj
+		StartupItem = codeeval.com\codeeval.com.csproj
 	EndGlobalSection
 EndGlobal
