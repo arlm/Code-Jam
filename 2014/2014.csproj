@@ -5,9 +5,9 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E4D0C2A8-DF7B-4B80-9CA3-292CF061307C}</ProjectGuid>
+    <ProjectGuid>{042EF871-5562-41CB-9A65-4DA292474FCE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <AssemblyName>2013</AssemblyName>
+    <AssemblyName>2014</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -17,21 +17,20 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
     <PlatformTarget>x86</PlatformTarget>
-    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <DebugType>none</DebugType>
+    <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
     <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -40,7 +39,6 @@
     <Compile Include="QR_B.cs" />
     <Compile Include="QR_C.cs" />
     <Compile Include="QR_D.cs" />
-    <Compile Include="R1A_A.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -50,13 +48,18 @@
   <ItemGroup>
     <None Include="input\qr-a-sample.txt" />
     <None Include="output\qr-a-sample.txt" />
-    <None Include="input\qr-c-sample.txt" />
-    <None Include="output\qr-c-sample.txt" />
+    <None Include="input\A-small-attempt0.in" />
+    <None Include="output\A-small-attempt0.in" />
     <None Include="input\qr-b-sample.txt" />
-    <None Include="output\qr-b-sample.txt" />
     <None Include="input\B-small-attempt0.in" />
+    <None Include="input\B-large.in" />
+    <None Include="input\qr-c-sample.txt" />
+    <None Include="input\C-small-attempt0.in" />
+    <None Include="output\C-small-attempt0.in" />
+    <None Include="output\qr-c-sample.txt" />
+    <None Include="output\B-large.in" />
     <None Include="output\B-small-attempt0.in" />
-    <None Include="input\r1a-a-sample.txt" />
-    <None Include="output\r1a-a-sample.txt" />
+    <None Include="output\qr-b-sample.txt" />
+    <None Include="input\qr-d-sample.txt" />
   </ItemGroup>
 </Project>
